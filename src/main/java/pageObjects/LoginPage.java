@@ -9,7 +9,7 @@ public class LoginPage {
 
     private WebDriver driver;
 
-    @FindBy(id="#nav-link-accountList-nav-line-1")
+    @FindBy(xpath="//a[@id='nav-link-accountList']")
     public WebElement landingPageSingInBtn;
 
     @FindBy(id="ap_email_login")
