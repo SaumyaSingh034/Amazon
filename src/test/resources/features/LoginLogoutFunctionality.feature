@@ -3,12 +3,12 @@ Feature: As a Amazon User I should be able to Login, search few items add them i
   Scenario: Login into the application with valid credentials
     Given I am on the Login Page "https://www.amazon.in/"
     Then I should click on The Sign In button
-#    Then I should see create account Page
-#    When I enter username as "username"
-#    And click on continue
-#    And I entered password as "password"
-#    And click on Sign In
-#    Then I am Logged In
+    Then I should see create account Page
+    When I enter username as "username"
+    And click on continue
+    And I entered password as "password"
+    And click on Sign In
+    Then I am Logged In
 #    And I clear cart items if any
 #    Then I search PS4
 #    And I add first aviable PS4 into the cart
